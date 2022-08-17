@@ -1,0 +1,56 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[General_Table]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The type for column Date_Acquired in table [dbo].[General_Table] is currently  NVARCHAR (50) NULL but is being changed
+         to  VARCHAR (50) NULL. Data loss could occur and deployment may fail if the column contains data that is incompatible
+         with type  VARCHAR (50) NULL.
+       The type for column Donated_Or_Loaned in table [dbo].[General_Table] is currently  NCHAR (10) NULL but is being changed
+         to  VARCHAR (10) NULL. Data loss could occur and deployment may fail if the column contains data that is incompatible
+         with type  VARCHAR (10) NULL.
+       The type for column Horse_Power in table [dbo].[General_Table] is currently  NCHAR (50) NULL but is being changed to 
+         VARCHAR (50) NULL. Data loss could occur and deployment may fail if the column contains data that is incompatible with
+         type  VARCHAR (50) NULL.
+       The type for column Link_to_TractorData in table [dbo].[General_Table] is currently  NVARCHAR (MAX) NULL but is being
+         changed to  VARCHAR (MAX) NULL. Data loss could occur and deployment may fail if the column contains data that is
+         incompatible with type  VARCHAR (MAX) NULL.
+       The type for column Machine_Location in table [dbo].[General_Table] is currently  NCHAR (50) NULL but is being changed
+         to  VARCHAR (50) NULL. Data loss could occur and deployment may fail if the column contains data that is incompatible
+         with type  VARCHAR (50) NULL.
+       The type for column Machine_Type in table [dbo].[General_Table] is currently  NCHAR (25) NULL but is being changed to 
+         VARCHAR (50) NULL. Data loss could occur and deployment may fail if the column contains data that is incompatible with
+         type  VARCHAR (50) NULL.
+       The type for column Model in table [dbo].[General_Table] is currently  NCHAR (25) NULL but is being changed to  VARCHAR
+         (25) NULL. Data loss could occur and deployment may fail if the column contains data that is incompatible with type 
+         VARCHAR (25) NULL.
+       The type for column Original_Owner in table [dbo].[General_Table] is currently  NCHAR (100) NULL but is being changed to
+          VARCHAR (100) NULL. Data loss could occur and deployment may fail if the column contains data that is incompatible with
+         type  VARCHAR (100) NULL.
+       The type for column Restoration_Status in table [dbo].[General_Table] is currently  NCHAR (50) NULL but is being changed
+         to  VARCHAR (50) NULL. Data loss could occur and deployment may fail if the column contains data that is incompatible
+         with type  VARCHAR (50) NULL.
+       The type for column Year_Built in table [dbo].[General_Table] is currently  NCHAR (10) NULL but is being changed to 
+         VARCHAR (10) NULL. Data loss could occur and deployment may fail if the column contains data that is incompatible with
+         type  VARCHAR (10) NULL.
+
+** User actions
+     Table rebuild
+       [dbo].[General_Table] (Table)
+
+** Supporting actions
+
+The type for column Date_Acquired in table [dbo].[General_Table] is currently  NVARCHAR (50) NULL but is being changed to  VARCHAR (50) NULL. Data loss could occur and deployment may fail if the column contains data that is incompatible with type  VARCHAR (50) NULL.
+The type for column Donated_Or_Loaned in table [dbo].[General_Table] is currently  NCHAR (10) NULL but is being changed to  VARCHAR (10) NULL. Data loss could occur and deployment may fail if the column contains data that is incompatible with type  VARCHAR (10) NULL.
+The type for column Horse_Power in table [dbo].[General_Table] is currently  NCHAR (50) NULL but is being changed to  VARCHAR (50) NULL. Data loss could occur and deployment may fail if the column contains data that is incompatible with type  VARCHAR (50) NULL.
+The type for column Link_to_TractorData in table [dbo].[General_Table] is currently  NVARCHAR (MAX) NULL but is being changed to  VARCHAR (MAX) NULL. Data loss could occur and deployment may fail if the column contains data that is incompatible with type  VARCHAR (MAX) NULL.
+The type for column Machine_Location in table [dbo].[General_Table] is currently  NCHAR (50) NULL but is being changed to  VARCHAR (50) NULL. Data loss could occur and deployment may fail if the column contains data that is incompatible with type  VARCHAR (50) NULL.
+The type for column Machine_Type in table [dbo].[General_Table] is currently  NCHAR (25) NULL but is being changed to  VARCHAR (50) NULL. Data loss could occur and deployment may fail if the column contains data that is incompatible with type  VARCHAR (50) NULL.
+The type for column Model in table [dbo].[General_Table] is currently  NCHAR (25) NULL but is being changed to  VARCHAR (25) NULL. Data loss could occur and deployment may fail if the column contains data that is incompatible with type  VARCHAR (25) NULL.
+The type for column Original_Owner in table [dbo].[General_Table] is currently  NCHAR (100) NULL but is being changed to  VARCHAR (100) NULL. Data loss could occur and deployment may fail if the column contains data that is incompatible with type  VARCHAR (100) NULL.
+The type for column Restoration_Status in table [dbo].[General_Table] is currently  NCHAR (50) NULL but is being changed to  VARCHAR (50) NULL. Data loss could occur and deployment may fail if the column contains data that is incompatible with type  VARCHAR (50) NULL.
+The type for column Year_Built in table [dbo].[General_Table] is currently  NCHAR (10) NULL but is being changed to  VARCHAR (10) NULL. Data loss could occur and deployment may fail if the column contains data that is incompatible with type  VARCHAR (10) NULL.
+
